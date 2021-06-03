@@ -129,6 +129,35 @@ namespace Gamerules
                 PlayerSafe == true;
             }
         }
+        static void MapProperty(string[] args)
+        {
+            int PlayerWallet = PlayerEndedGames;
+            Console.WriteLine(+playerEndedGames);
+            var PlayerEndedGames = Convert.ToInt64(Console.ReadLine());
+            bool Objective1 = false;
+            bool objective2 = false;
+            bool objective3 = false;
+            var GuessGhostType = XlassGhost;
+            var GhostPic = false;
+
+            if (PlayerState == true)
+            {
+                PlayerEndedGames == PlayerEndedGames - PlayerEndedGames;
+                
+                if (objective1 = false)
+                {
+                    PlayerWallet == +0;
+                }
+                if (objective2 == false)
+                {
+                    PlayerWallet ==+0;
+                }
+                if (objective3 == false)
+                {
+                    PlayerWallet == +0;
+                }
+            }
+        }
 
         static void MainMenu(string[] args)
         {

@@ -19,4 +19,5 @@ class EMF
 {
     public int EmfMinLevel {get; set;} = 1;
     public int EmfMaxLevel {get; set;} = 5;
+    public int EmPrince {get; set;} = 45;
 }

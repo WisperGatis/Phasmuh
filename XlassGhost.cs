@@ -17,7 +17,7 @@ class Banshee
     public int RangeBS {get; set;} = 3;
     public int speedBS {get; set;} = 2;
     public int speedChaseBS {get; set;} = playerFocusedSpeed - 1;
-    int ApparitionRateBS = 10.00;
+    public int ApparitionRateBS = 10.00;
 }
 class phantom
 {
