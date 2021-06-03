@@ -2,6 +2,16 @@ using System;
 using System.Linq;
 using System.IO;
 
+class Proofs 
+{
+    public var EMF5 = false;
+    public var NegativeTemp = false;
+    public var Fingerprints = false;
+    public var GhostWrite = false;
+    public var GhostOrbs = false;
+    public var SpiritBoxResponsive = false;
+}
+
 class Revenant
 {
     public int viewRVT {get; set;} = 20.00;
@@ -9,6 +19,9 @@ class Revenant
     public int speedRVT {get; set;} = 1.5;
     public int speedChase {get; set;} = 4.00;
     public int ApparitionRateRVT {get; set;} = 10.00;
+    public var ProffsRVT1 {get; set;} = +GhostWrite = true;
+    public var ProffsRVT2 {get; set;} = +FingerPrint = true;
+    public var ProffsRVT3 {get; set;} = +EMF5 = true;
 }
 
 class Banshee
@@ -17,7 +30,7 @@ class Banshee
     public int RangeBS {get; set;} = 3;
     public int speedBS {get; set;} = 2;
     public int speedChaseBS {get; set;} = playerFocusedSpeed - 1;
-    public int ApparitionRateBS = 10.00;
+    public int ApparitionRateBS {get; set;} = 10.00;
 }
 class phantom
 {
@@ -26,6 +39,9 @@ class phantom
     public int speedPh {get; set;} = 2;
     public int speedChasePh {get; set;} = 2.5;
     public int ApparitionRatePh {get; set;} = 10.00;
+    public var proofPh {get; set;} = emf5 = true;
+    public var proofph1 {set; get;} = GhostOrbs = true;
+    public var proofph2 {get; set;} = NegativeTemps = true;
 }
 class Yurei
 {
