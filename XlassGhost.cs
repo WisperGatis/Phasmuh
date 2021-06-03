@@ -50,6 +50,7 @@ class Yurei
     public int speedYurei {get; set;} = 2;
     public int speedChaseYurei {get; set;} = 2.5;
     public int ApparitionRateYurei {get; set;} = PlayerInteraction;
+    
 }
 class hantu
 {
@@ -113,5 +114,5 @@ class Djinn
     public int RangeDjn {get; set;} = 3.00;
     public int SpeedDjn {get; set;} = 2;
     public int SpeedChaseDjn {get; set;} = 2.5;
-   public var DjnPowerOnSpeed {get; set;} = PowerOnstate;
+    public var DjnPowerOnSpeed {get; set;} = PowerOnstate;
 }
